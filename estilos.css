@@ -1,0 +1,56 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&display=swap');
+
+body {
+    background-color: chocolate;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div{
+    width: 600;
+    max-width: 95%;
+    margin: 0 auto;
+}
+article{
+background-color: white;
+padding: 10px;
+margin: 50px;
+}
+
+.centrada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li{
+    display: inline-block;
+    margin: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aqua;
+    background-color: black;
+    padding: 15px;
+}
+nav a:hover{
+    color: aqua;
+    background-color: crimson;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+    nav a{
+        padding: 5px;
+    }
+}
